@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Serif", serif;
+}
+
+body {
+    background-color: #f1f5f8;
+    color: #102a41;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+    letter-spacing: 2px;
+    font-size: 100px;
+}
+
+.container h3 {
+    font-weight: 200;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 275px;
+    letter-spacing: 2px;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 320px;
+}
+
+.decrement,
+.increment,
+.reset {
+    font-weight: lighter;
+    font-size: 40px;
+    letter-spacing: 5px;
+    background: none;
+    border-radius: 20px;
+    cursor: pointer;
+    /* padding: 40px 0px; */
+    padding: 0px 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.decrement {
+    margin-right: 15px;
+}
+
+.reset {
+    margin-right: 15px;
+}
+
+.decrement:hover,
+.increment:hover,
+.reset:hover {
+    color: #fff;
+    background-color: #111;
+    transition: 0.25s ease-in-out;
+}
